@@ -3,7 +3,7 @@ import re
 import operator
 import psycopg2 as pg2
 import pandas as pd
-import random  #IMP # impor
+import random
 
 
 # HTML COLOR TASK
