@@ -165,7 +165,7 @@ print("The sum of the first 50 Fibonacci series is: ", sum(fibonacci_list))
 
 # Binary search and replace task
 pattern = "0101101011101011011101101000111"
-regX = re.sub("[^(11{0,1})]", "0", pattern)
+regX = re.sub("[^11{0,1}]", "0", pattern)
 newReg = re.sub("11{2}", "001", regX)
 
 print("\n", regX)
