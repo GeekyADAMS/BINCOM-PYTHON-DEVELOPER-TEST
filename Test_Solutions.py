@@ -1,9 +1,5 @@
 # import all needed modules and libraries
-import re
-import operator
-import psycopg2 as pg2
-import pandas as pd
-import random
+import re, operator, psycopg2 as pg2, pandas as pd, random
 
 
 # HTML COLOR TASK
