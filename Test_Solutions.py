@@ -168,5 +168,5 @@ pattern = "0101101011101011011101101000111"
 regX = re.sub("[^11{0,1}]", "0", pattern)
 newReg = re.sub("11{2}", "001", regX)
 
-print("\n", regX)
+print("\n",newReg)
 print("0000000000100000000100000000001")
